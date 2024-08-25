@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Vivid Verse Blog
+  site: 'https://vividverseblog.com'
   base: '/'
   trailingSlash: false
 
@@ -9,23 +9,19 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Vivid Verse Blog
+    template: '%s — Vivid Verse Blog'
+  description: "A cutting-edge blog dedicated to the latest in tech products, reviews, how-tos, and industry news."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Vivid Verse Blog
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/skool-community.png'
         width: 1200
         height: 628
     type: website
-  twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
 
 i18n:
   language: en
@@ -69,4 +65,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

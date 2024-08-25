@@ -25,8 +25,13 @@ const whenExternalScripts = (items = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
+  devToolbar: {
+    enabled: true
+  },
   output: 'static',
-
+  redirects: {
+    '/': '/blog'
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,

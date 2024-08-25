@@ -138,7 +138,7 @@ const getAppBlog = (config: Config) => {
       permalink: '/blog/%slug%',
       robots: {
         index: true,
-        follow: true,
+        follow: false,
       },
     },
     list: {

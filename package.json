@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && cp .firebase/google81911e726efcea59.html dist/ && cp .firebase/google81911e726efcea59.html dist/blog",
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier -w .",
